@@ -586,7 +586,7 @@ body {
 }
 
 .timeline-list li::before {
-    content: 'â–¸';
+    content: '–';
     position: absolute;
     left: 0;
     color: #ff00ff;
@@ -988,7 +988,7 @@ body {
     background: #050810;
     border-top: 2px solid #b366ff;
     padding: 2rem 4rem;
-    margin-left: 250px;
+    margin-left: 0px;
     text-align: center;
     color: #606060;
     font-size: 0.9rem;
@@ -1160,7 +1160,7 @@ body {
 
     .logo {
         margin-bottom: 2rem;
-        font-size: 1.2rem;
+        font-size: 9px;
     }
 
     .nav-text {
@@ -1240,11 +1240,20 @@ body {
         padding: 1.5rem;
         font-size: 0.8rem;
     }
+
+    .social-links{
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(179, 102, 255, 0.2);
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 480px) {
     .sidebar {
-        width: 60px;
+        width: 65px;
     }
 
     .main-content {
@@ -1282,7 +1291,7 @@ body {
     }
 
     .footer {
-        margin-left: 60px;
+        margin-left: 5px;
     }
 }
 
