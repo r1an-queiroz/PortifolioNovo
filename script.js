@@ -493,3 +493,15 @@ blinkStyle.textContent = `
     }
 `;
 document.head.appendChild(blinkStyle);
+
+
+const toggleButton = document.getElementById("menuToggle");
+const sidebar = document.querySelector(".sidebar");
+const mainContent = document.querySelector(".main-content");
+
+toggleButton.addEventListener("click", () =>
+{
+    sidebar.classList.toggle("open");
+    mainContent.classList.toggle("blur");
+});
+
