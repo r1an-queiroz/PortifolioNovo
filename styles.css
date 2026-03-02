@@ -780,11 +780,21 @@ body {
 }
 
 .skill-progress {
+    width: 0;
     height: 100%;
     background: linear-gradient(90deg, #b366ff, #ff00ff);
     border-radius: 3px;
-    animation: expandWidth 0.8s ease-out forwards;
-    box-shadow: 0 0 10px rgba(179, 102, 255, 0.6);
+
+}
+
+
+@keyframes expandWidth {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 /* ============================================================================
@@ -1116,7 +1126,11 @@ body {
    RESPONSIVE DESIGN
    ============================================================================ */
 
+
+
 @media (max-width: 1024px) {
+
+
     .sidebar {
         width: 200px;
     }
@@ -1144,7 +1158,7 @@ body {
     }
 
     .footer {
-        margin-left: 200px;
+        margin-left: 0px;
     }
 }
 
@@ -1236,7 +1250,7 @@ body {
     }
 
     .footer {
-        margin-left: 70px;
+        margin-left: 0px;
         padding: 1.5rem;
         font-size: 0.8rem;
     }

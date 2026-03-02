@@ -190,7 +190,7 @@ style.textContent = `
 document.head.appendChild(style);
 
 // ============================================================================
-// EFEITO DE DIGITAÃ‡ÃƒO
+// EFEITO DE DIGITAÇÃO
 // ============================================================================
 
 function initTypewriterEffect() {
@@ -222,7 +222,7 @@ function typeWriter(element, text, speed) {
 }
 
 // ============================================================================
-// ANIMAÃ‡ÃƒO DE CONTADOR
+// ANIMAÇÃO DE CONTADOR
 // ============================================================================
 
 function initCounterAnimation() {
@@ -347,7 +347,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // ============================================================================
-// EFEITO DE GLOW DINÃ‚MICO
+// EFEITO DE GLOW DINÂMICO
 // ============================================================================
 
 document.addEventListener('mousemove', (e) => {
@@ -383,7 +383,7 @@ if ('IntersectionObserver' in window) {
 }
 
 // ============================================================================
-// DETECÃ‡ÃƒO DE PREFERÃŠNCIA DE MOVIMENTO REDUZIDO
+// DETECÃ‡ÃƒO DE PREFERERENCIA DE MOVIMENTO REDUZIDO
 // ============================================================================
 
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -434,7 +434,7 @@ function debounce(func, wait) {
 }
 
 // ============================================================================
-// INICIALIZAÃ‡ÃƒO DE TOOLTIPS
+// INICIALIZAÇÃO DE TOOLTIPS
 // ============================================================================
 
 const tooltips = document.querySelectorAll('[title]');
@@ -473,12 +473,12 @@ tooltips.forEach(element => {
 // CONSOLE MESSAGE
 // ============================================================================
 
-console.log('%cðŸš€ Bem-vindo ao portfÃ³lio de Ryan Queiroz!', 'color: #00d9ff; font-size: 16px; font-weight: bold; text-shadow: 0 0 10px rgba(0, 217, 255, 0.8);');
+console.log('% Bem-vindo ao portifolio de Ryan Queiroz!', 'color: #00d9ff; font-size: 16px; font-weight: bold; text-shadow: 0 0 10px rgba(0, 217, 255, 0.8);');
 console.log('%cDesenvolvido com HTML5, CSS3 e JavaScript puro', 'color: #39ff14; font-size: 14px;');
 console.log('%cEntre em contato: ryanqueiroz4568@gmail.com', 'color: #e0e0e0; font-size: 12px;');
 
 // ============================================================================
-// ANIMAÃ‡ÃƒO DE PISCAR DO CURSOR - MÃQUINA DE ESCREVER
+// ANIMação DE PISCAR DO CURSOR - MAQUINA DE ESCREVER
 // ============================================================================
 
 const blinkStyle = document.createElement('style');
