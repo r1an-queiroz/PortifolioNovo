@@ -205,11 +205,13 @@ a {
 .sidebar-footer {
     padding: 1rem 1.5rem 1.4rem;
     border-top: 1px solid var(--line);
+    margin-top: -7%;
 }
 
 .footer-text {
     color: var(--muted);
     font-size: 0.82rem;
+    margin-top: -3%;
 }
 
 .main-content {
